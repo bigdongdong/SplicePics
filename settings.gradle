@@ -13,5 +13,5 @@ dependencyResolutionManagement {
         maven { url 'https://jitpack.io' }  //添加jitpack仓库
     }
 }
-rootProject.name = "TODO"
+rootProject.name = "SplicePics"
 include ':app'
