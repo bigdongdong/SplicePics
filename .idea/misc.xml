@@ -1,0 +1,17 @@
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/git-projects/ChineseChess/app/src/main/res/drawable/icon_seat_close.xml" value="0.289" />
+        <entry key="..\:/git-projects/ChineseChess/app/src/main/res/drawable/icon_seat_undo.xml" value="0.3815" />
+        <entry key="..\:/git-projects/ChineseChess/app/src/main/res/drawable/shape_seat_bg.xml" value="0.3815" />
+        <entry key="..\:/git-projects/ChineseChess/app/src/main/res/layout/activity_main.xml" value="0.5" />
+        <entry key="..\:/git-projects/ChineseChess/app/src/main/res/layout/dialog_chess_menu.xml" value="0.50625" />
+        <entry key="..\:/git-projects/ChineseChess/app/src/main/res/layout/view_menu.xml" value="0.334375" />
+        <entry key="..\:/git-projects/ChineseChess/app/src/main/res/layout/view_seat.xml" value="0.48489583333333336" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK" />
+</project>
