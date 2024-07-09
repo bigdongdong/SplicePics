@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.cxd.PreviewActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+
+    <RelativeLayout
+        android:id="@+id/bar"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <ImageView
+            android:id="@+id/ivBack"
+            android:src="@drawable/back"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:padding="10dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"/>
+    </RelativeLayout>
+
+    <com.cxd.splice.SpliceView
+        android:id="@+id/sv"
+        android:background="#11333333"
+        android:layout_below="@+id/bar"
+        android:layout_above="@+id/rl_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <RelativeLayout
+        android:id="@+id/rl_bottom"
+        android:layout_alignParentBottom="true"
+        android:background="#FFFFFF"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+        <LinearLayout
+            android:id="@+id/ll_bottom"
+            android:translationX="-20dp"
+            android:layout_alignParentTop="true"
+            android:background="#FFFFFF"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/ivMode1"
+                android:background="@drawable/selector_mode"
+                tools:background="#11333333"
+                android:src="@drawable/horizontal"
+                android:padding="10dp"
+                android:rotation="90"
+                android:layout_width="55dp"
+                android:layout_height="55dp"/>
+            <ImageView
+                android:id="@+id/ivMode2"
+                android:background="@drawable/selector_mode"
+                android:layout_marginStart="10dp"
+                android:src="@drawable/horizontal"
+                android:padding="10dp"
+                android:layout_width="55dp"
+                android:layout_height="55dp"/>
+            <ImageView
+                android:id="@+id/ivMode3"
+                android:background="@drawable/selector_mode"
+                android:layout_marginStart="10dp"
+                android:src="@drawable/grid"
+                android:padding="10dp"
+                android:layout_width="55dp"
+                android:layout_height="55dp"/>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/ivSave"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/bg_save"
+            android:layout_centerVertical="true"
+            android:padding="13dp"
+            android:rotation="-90"
+            android:src="@drawable/back"
+            android:translationX="-20dp" />
+    </RelativeLayout>
+
+</RelativeLayout>
